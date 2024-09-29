@@ -1,0 +1,6 @@
+dash_bootstrap_components
+pandas
+fastapi
+uvicorn
+dash
+plotly
