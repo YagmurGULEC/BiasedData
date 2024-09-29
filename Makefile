@@ -3,7 +3,7 @@ ENV_FILE=.env
 SHELL=./make-venv
 
 install:
-	python -m venv venv
+	python3 -m venv venv
 	pip install --upgrade pip
 
 

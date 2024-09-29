@@ -33,7 +33,7 @@ def generate_imbalanced_data(num_samples=1000):
     'Applicant ID': range(1, num_samples + 1),
     'Education Level': np.random.choice(education_levels, num_samples, p=[0.1, 0.15, 0.4, 0.25, 0.1]),
     'Years of Experience': np.random.randint(1, 20, num_samples),
-    'Skills': [', '.join(random.sample(skills_pool, k=np.random.randint(1, 4))) for _ in range(num_samples)],
+    # 'Skills': [', '.join(random.sample(skills_pool, k=np.random.randint(1, 4))) for _ in range(num_samples)],
     'Gender': np.random.choice(genders, num_samples, p=[0.6, 0.4])  # Slight bias in male population
     }
     # Create DataFrame
