@@ -1,0 +1,1001 @@
+Applicant ID,Education Level,Years of Experience,Gender,Hired
+1,Bachelor's,15,Male,Yes
+2,PhD,12,Male,Yes
+3,Master's,16,Male,Yes
+4,Bachelor's,19,Male,Yes
+5,Associate,8,Male,Yes
+6,Associate,17,Female,No
+7,High School,5,Male,Yes
+8,Master's,16,Female,No
+9,Bachelor's,6,Male,No
+10,Master's,8,Male,Yes
+11,High School,18,Male,Yes
+12,PhD,12,Male,Yes
+13,Master's,15,Male,Yes
+14,Associate,9,Male,Yes
+15,Associate,13,Male,Yes
+16,Associate,15,Male,Yes
+17,Bachelor's,10,Male,Yes
+18,Bachelor's,16,Male,Yes
+19,Bachelor's,7,Female,No
+20,Bachelor's,17,Female,No
+21,Bachelor's,7,Male,Yes
+22,Associate,14,Male,Yes
+23,Bachelor's,15,Female,No
+24,Bachelor's,7,Female,No
+25,Bachelor's,9,Male,No
+26,Master's,19,Female,No
+27,Associate,16,Male,No
+28,Bachelor's,8,Male,Yes
+29,Bachelor's,18,Female,No
+30,High School,18,Male,Yes
+31,Bachelor's,7,Female,No
+32,Associate,3,Female,No
+33,High School,18,Male,Yes
+34,PhD,10,Male,Yes
+35,PhD,7,Male,Yes
+36,Master's,17,Male,Yes
+37,Bachelor's,14,Female,No
+38,High School,3,Male,Yes
+39,Master's,12,Male,Yes
+40,Bachelor's,13,Female,No
+41,Associate,2,Male,Yes
+42,Bachelor's,3,Female,Yes
+43,High School,5,Male,Yes
+44,PhD,11,Female,No
+45,Bachelor's,8,Male,Yes
+46,Master's,12,Male,Yes
+47,Bachelor's,7,Male,Yes
+48,Bachelor's,15,Male,Yes
+49,Bachelor's,17,Female,No
+50,Associate,4,Female,No
+51,PhD,13,Female,No
+52,Master's,18,Male,Yes
+53,PhD,1,Male,Yes
+54,Master's,16,Male,Yes
+55,Bachelor's,13,Male,Yes
+56,PhD,10,Female,No
+57,High School,12,Male,Yes
+58,Associate,2,Male,Yes
+59,High School,3,Male,Yes
+60,Bachelor's,10,Female,No
+61,Bachelor's,2,Female,Yes
+62,Bachelor's,13,Female,No
+63,Master's,13,Male,Yes
+64,Bachelor's,18,Male,Yes
+65,Bachelor's,3,Female,No
+66,Bachelor's,7,Female,No
+67,Associate,14,Male,Yes
+68,Master's,17,Female,No
+69,High School,12,Female,No
+70,PhD,16,Female,Yes
+71,Master's,12,Female,No
+72,Associate,15,Male,No
+73,High School,10,Male,Yes
+74,Master's,7,Male,Yes
+75,Master's,5,Female,No
+76,Master's,1,Female,No
+77,Master's,17,Female,Yes
+78,High School,3,Male,Yes
+79,Bachelor's,13,Female,No
+80,Associate,14,Female,No
+81,Master's,18,Female,No
+82,Bachelor's,4,Female,Yes
+83,Bachelor's,18,Female,No
+84,High School,5,Male,Yes
+85,Bachelor's,16,Male,Yes
+86,Bachelor's,1,Male,Yes
+87,Master's,14,Male,Yes
+88,Bachelor's,15,Female,No
+89,Master's,9,Female,No
+90,Bachelor's,15,Male,Yes
+91,Associate,17,Male,Yes
+92,Master's,4,Female,No
+93,Master's,12,Male,Yes
+94,Bachelor's,5,Male,Yes
+95,Master's,5,Male,Yes
+96,Bachelor's,11,Male,Yes
+97,Bachelor's,6,Male,Yes
+98,Bachelor's,7,Male,Yes
+99,High School,14,Male,No
+100,Associate,11,Female,No
+101,High School,13,Male,Yes
+102,Bachelor's,2,Female,No
+103,Bachelor's,7,Male,Yes
+104,Bachelor's,4,Male,Yes
+105,PhD,8,Female,No
+106,Associate,19,Male,Yes
+107,Bachelor's,13,Male,Yes
+108,Master's,14,Male,Yes
+109,Associate,10,Female,No
+110,High School,11,Male,Yes
+111,Bachelor's,2,Male,Yes
+112,Associate,9,Female,No
+113,PhD,17,Male,Yes
+114,Master's,3,Female,No
+115,Bachelor's,6,Female,No
+116,Master's,5,Female,No
+117,Master's,5,Male,Yes
+118,Associate,15,Female,No
+119,Master's,17,Male,Yes
+120,Bachelor's,9,Male,Yes
+121,Master's,3,Male,Yes
+122,Master's,17,Female,No
+123,Bachelor's,10,Male,Yes
+124,Associate,3,Male,Yes
+125,Associate,18,Male,Yes
+126,Bachelor's,18,Female,Yes
+127,Master's,17,Female,No
+128,Master's,3,Female,Yes
+129,High School,3,Male,Yes
+130,Bachelor's,6,Male,Yes
+131,Bachelor's,13,Female,No
+132,Associate,15,Male,Yes
+133,Associate,9,Male,Yes
+134,Bachelor's,4,Female,Yes
+135,PhD,14,Female,No
+136,Bachelor's,5,Female,No
+137,Bachelor's,2,Female,Yes
+138,Master's,11,Female,Yes
+139,Bachelor's,9,Male,Yes
+140,PhD,3,Male,Yes
+141,PhD,9,Female,No
+142,Bachelor's,3,Male,Yes
+143,Bachelor's,2,Female,No
+144,Bachelor's,12,Male,Yes
+145,Bachelor's,10,Male,Yes
+146,High School,9,Female,No
+147,Bachelor's,15,Female,No
+148,Bachelor's,8,Female,Yes
+149,High School,5,Male,Yes
+150,Bachelor's,11,Female,Yes
+151,PhD,2,Male,Yes
+152,Associate,15,Male,Yes
+153,Associate,6,Male,Yes
+154,Bachelor's,8,Male,Yes
+155,PhD,5,Male,Yes
+156,Associate,16,Female,No
+157,Master's,18,Female,No
+158,Master's,6,Female,No
+159,Associate,5,Male,Yes
+160,Master's,16,Female,No
+161,Bachelor's,13,Female,No
+162,Bachelor's,5,Female,No
+163,Bachelor's,13,Male,Yes
+164,Bachelor's,17,Male,No
+165,High School,18,Male,Yes
+166,Master's,8,Male,No
+167,Bachelor's,13,Male,Yes
+168,Associate,19,Female,No
+169,High School,3,Male,Yes
+170,Bachelor's,8,Male,Yes
+171,Master's,2,Male,Yes
+172,High School,8,Male,Yes
+173,Bachelor's,13,Male,Yes
+174,Associate,13,Male,Yes
+175,Bachelor's,1,Male,Yes
+176,Associate,6,Female,No
+177,Master's,19,Female,No
+178,Bachelor's,16,Male,Yes
+179,PhD,8,Male,No
+180,Associate,1,Female,No
+181,Bachelor's,16,Male,Yes
+182,Associate,9,Male,Yes
+183,PhD,13,Female,Yes
+184,Master's,11,Male,Yes
+185,Bachelor's,13,Female,No
+186,Master's,10,Male,Yes
+187,Master's,4,Male,Yes
+188,Bachelor's,6,Male,No
+189,Bachelor's,7,Female,No
+190,Associate,5,Male,Yes
+191,High School,11,Male,Yes
+192,Master's,13,Female,No
+193,PhD,19,Male,Yes
+194,Bachelor's,10,Male,Yes
+195,Bachelor's,10,Female,No
+196,Bachelor's,11,Male,Yes
+197,Master's,7,Female,Yes
+198,Master's,18,Female,No
+199,Master's,4,Female,No
+200,Master's,2,Male,No
+201,Bachelor's,14,Female,No
+202,High School,13,Male,Yes
+203,Associate,12,Female,Yes
+204,Master's,7,Male,Yes
+205,Bachelor's,2,Male,Yes
+206,High School,13,Male,Yes
+207,Associate,14,Female,No
+208,Master's,17,Female,No
+209,High School,9,Male,No
+210,Associate,17,Male,No
+211,Bachelor's,8,Female,Yes
+212,Master's,2,Male,Yes
+213,Master's,13,Male,No
+214,Associate,3,Female,Yes
+215,Master's,16,Male,Yes
+216,Associate,6,Female,No
+217,Bachelor's,19,Male,Yes
+218,Master's,7,Male,Yes
+219,Bachelor's,10,Male,Yes
+220,Master's,9,Female,No
+221,Master's,2,Male,Yes
+222,Bachelor's,15,Female,Yes
+223,High School,5,Male,Yes
+224,Bachelor's,4,Female,No
+225,Bachelor's,4,Male,Yes
+226,Associate,18,Male,Yes
+227,PhD,4,Female,No
+228,Bachelor's,17,Male,Yes
+229,Master's,12,Male,Yes
+230,Bachelor's,17,Female,No
+231,Master's,10,Male,Yes
+232,Bachelor's,1,Female,No
+233,Bachelor's,18,Male,Yes
+234,Bachelor's,18,Female,No
+235,Associate,14,Male,Yes
+236,Master's,15,Male,Yes
+237,Bachelor's,12,Female,Yes
+238,High School,4,Female,No
+239,Bachelor's,3,Male,Yes
+240,Associate,12,Male,Yes
+241,PhD,7,Female,No
+242,PhD,11,Male,Yes
+243,PhD,1,Female,No
+244,Bachelor's,6,Female,No
+245,High School,15,Male,Yes
+246,PhD,15,Male,Yes
+247,Bachelor's,19,Female,No
+248,PhD,11,Male,Yes
+249,PhD,2,Male,Yes
+250,Master's,14,Female,Yes
+251,Bachelor's,2,Male,Yes
+252,Bachelor's,4,Female,No
+253,Master's,17,Male,Yes
+254,Bachelor's,3,Male,No
+255,Associate,13,Male,Yes
+256,Bachelor's,9,Male,Yes
+257,PhD,7,Male,Yes
+258,Master's,15,Male,Yes
+259,Bachelor's,11,Female,Yes
+260,High School,2,Male,Yes
+261,Bachelor's,15,Male,Yes
+262,PhD,14,Male,No
+263,Associate,11,Male,Yes
+264,Bachelor's,3,Male,No
+265,Master's,17,Male,Yes
+266,Master's,12,Male,Yes
+267,Master's,15,Male,Yes
+268,Master's,16,Male,Yes
+269,Bachelor's,5,Female,No
+270,Bachelor's,6,Male,Yes
+271,Master's,19,Male,Yes
+272,Master's,5,Female,No
+273,Master's,3,Male,Yes
+274,PhD,1,Female,No
+275,Bachelor's,6,Male,Yes
+276,Bachelor's,15,Male,Yes
+277,Master's,2,Male,Yes
+278,Bachelor's,3,Male,Yes
+279,Master's,17,Female,No
+280,Master's,12,Male,Yes
+281,Master's,18,Female,No
+282,Bachelor's,15,Male,Yes
+283,Bachelor's,12,Male,Yes
+284,High School,16,Male,Yes
+285,Bachelor's,8,Male,Yes
+286,High School,14,Male,Yes
+287,Bachelor's,17,Female,No
+288,Bachelor's,8,Female,No
+289,Bachelor's,15,Male,Yes
+290,Bachelor's,14,Female,No
+291,High School,18,Female,Yes
+292,High School,7,Female,No
+293,Master's,3,Male,Yes
+294,Bachelor's,12,Female,Yes
+295,Associate,3,Male,No
+296,Bachelor's,14,Female,No
+297,Master's,15,Male,Yes
+298,Associate,14,Male,Yes
+299,Bachelor's,7,Female,No
+300,High School,17,Male,Yes
+301,High School,12,Female,No
+302,Bachelor's,4,Female,No
+303,Bachelor's,9,Female,No
+304,Bachelor's,6,Male,Yes
+305,Master's,16,Female,No
+306,PhD,2,Male,Yes
+307,Bachelor's,8,Male,Yes
+308,Bachelor's,11,Female,No
+309,Master's,13,Male,Yes
+310,Bachelor's,17,Male,Yes
+311,Bachelor's,8,Female,No
+312,High School,18,Male,Yes
+313,High School,18,Male,Yes
+314,PhD,14,Female,No
+315,Master's,15,Male,Yes
+316,Master's,6,Female,No
+317,Bachelor's,11,Female,No
+318,Associate,13,Female,No
+319,Associate,1,Female,No
+320,Bachelor's,6,Male,Yes
+321,Bachelor's,9,Male,Yes
+322,Master's,8,Female,No
+323,Master's,11,Female,No
+324,Bachelor's,19,Male,Yes
+325,PhD,9,Male,Yes
+326,Master's,17,Male,Yes
+327,Bachelor's,12,Male,Yes
+328,Bachelor's,14,Female,No
+329,Bachelor's,15,Male,Yes
+330,Associate,16,Female,No
+331,Bachelor's,1,Female,No
+332,Master's,10,Male,Yes
+333,High School,8,Female,No
+334,Associate,18,Male,Yes
+335,High School,1,Male,Yes
+336,High School,2,Female,No
+337,Master's,1,Female,No
+338,Master's,1,Female,No
+339,Bachelor's,9,Male,Yes
+340,High School,13,Male,Yes
+341,Bachelor's,1,Female,No
+342,Bachelor's,13,Male,Yes
+343,Associate,7,Male,Yes
+344,Bachelor's,2,Male,Yes
+345,Bachelor's,6,Female,No
+346,Bachelor's,7,Male,Yes
+347,Bachelor's,14,Female,No
+348,High School,18,Female,No
+349,Bachelor's,15,Male,No
+350,Bachelor's,2,Male,Yes
+351,Bachelor's,10,Male,Yes
+352,Master's,12,Female,No
+353,Master's,17,Male,Yes
+354,Associate,8,Male,Yes
+355,High School,11,Male,Yes
+356,Bachelor's,3,Female,No
+357,High School,6,Male,Yes
+358,Bachelor's,9,Female,No
+359,PhD,6,Female,No
+360,Bachelor's,9,Male,Yes
+361,Bachelor's,7,Female,Yes
+362,Bachelor's,9,Male,Yes
+363,Bachelor's,18,Female,No
+364,Bachelor's,12,Female,No
+365,PhD,8,Female,No
+366,Bachelor's,8,Male,Yes
+367,PhD,18,Male,Yes
+368,PhD,15,Male,Yes
+369,Associate,7,Male,Yes
+370,High School,11,Male,Yes
+371,Associate,16,Male,Yes
+372,High School,4,Male,No
+373,High School,6,Male,Yes
+374,Master's,3,Female,No
+375,High School,9,Male,Yes
+376,Bachelor's,10,Male,Yes
+377,Master's,14,Male,Yes
+378,High School,11,Male,Yes
+379,Master's,18,Female,No
+380,Bachelor's,12,Male,Yes
+381,Associate,12,Female,No
+382,Master's,13,Female,Yes
+383,Bachelor's,13,Female,No
+384,Master's,19,Female,No
+385,Master's,19,Female,No
+386,Master's,14,Female,No
+387,Bachelor's,4,Female,No
+388,Associate,13,Male,Yes
+389,Master's,8,Female,No
+390,Master's,19,Male,Yes
+391,PhD,12,Female,No
+392,Bachelor's,18,Male,Yes
+393,Bachelor's,6,Male,Yes
+394,Master's,18,Male,Yes
+395,Bachelor's,19,Male,Yes
+396,PhD,5,Male,Yes
+397,Master's,9,Male,Yes
+398,Bachelor's,3,Male,Yes
+399,Master's,10,Male,Yes
+400,Master's,19,Female,Yes
+401,Associate,3,Male,Yes
+402,PhD,15,Male,Yes
+403,Bachelor's,1,Female,Yes
+404,Master's,7,Male,Yes
+405,Bachelor's,12,Male,Yes
+406,Master's,17,Female,Yes
+407,Bachelor's,5,Female,No
+408,High School,4,Male,Yes
+409,PhD,12,Male,Yes
+410,High School,18,Female,No
+411,Bachelor's,17,Female,No
+412,PhD,19,Male,No
+413,PhD,9,Female,No
+414,Bachelor's,4,Male,Yes
+415,Bachelor's,2,Male,Yes
+416,Bachelor's,4,Male,Yes
+417,Bachelor's,2,Female,No
+418,Bachelor's,15,Male,Yes
+419,Master's,2,Female,No
+420,Master's,4,Male,Yes
+421,Master's,6,Male,Yes
+422,Master's,7,Male,Yes
+423,High School,10,Female,Yes
+424,Bachelor's,19,Male,No
+425,High School,19,Male,Yes
+426,Bachelor's,12,Female,No
+427,Bachelor's,3,Male,No
+428,Master's,13,Female,No
+429,Bachelor's,18,Male,No
+430,Associate,8,Female,No
+431,Associate,15,Male,Yes
+432,Master's,1,Female,No
+433,Bachelor's,3,Male,Yes
+434,Associate,8,Male,Yes
+435,High School,4,Male,No
+436,Master's,16,Male,Yes
+437,High School,10,Male,Yes
+438,Master's,12,Female,No
+439,Master's,14,Male,Yes
+440,High School,14,Female,No
+441,High School,2,Female,No
+442,PhD,5,Female,No
+443,Bachelor's,5,Male,Yes
+444,Bachelor's,6,Male,Yes
+445,Master's,13,Female,No
+446,PhD,9,Female,No
+447,PhD,15,Male,Yes
+448,Master's,14,Male,Yes
+449,Bachelor's,7,Male,Yes
+450,High School,2,Female,No
+451,Master's,7,Male,Yes
+452,Bachelor's,6,Male,Yes
+453,Bachelor's,17,Female,No
+454,PhD,2,Male,Yes
+455,Associate,3,Male,Yes
+456,Bachelor's,5,Female,No
+457,High School,5,Female,No
+458,Bachelor's,1,Male,Yes
+459,High School,8,Male,Yes
+460,Associate,12,Male,Yes
+461,Associate,4,Male,Yes
+462,Bachelor's,13,Female,No
+463,Master's,15,Male,Yes
+464,Bachelor's,11,Male,Yes
+465,PhD,10,Male,Yes
+466,Bachelor's,3,Male,Yes
+467,Bachelor's,14,Male,Yes
+468,Master's,16,Female,No
+469,Associate,10,Male,Yes
+470,PhD,10,Female,No
+471,High School,12,Female,No
+472,PhD,9,Male,Yes
+473,High School,1,Male,No
+474,Master's,5,Male,Yes
+475,Bachelor's,8,Male,No
+476,PhD,11,Male,Yes
+477,High School,12,Male,Yes
+478,Bachelor's,1,Male,Yes
+479,PhD,11,Female,No
+480,Bachelor's,5,Male,Yes
+481,Bachelor's,15,Female,No
+482,Master's,5,Male,Yes
+483,Bachelor's,12,Female,No
+484,Bachelor's,5,Male,Yes
+485,Bachelor's,17,Male,Yes
+486,PhD,17,Female,No
+487,High School,12,Male,Yes
+488,Bachelor's,15,Male,Yes
+489,PhD,15,Female,No
+490,Master's,6,Male,Yes
+491,Bachelor's,12,Male,Yes
+492,Bachelor's,18,Female,Yes
+493,Bachelor's,14,Female,Yes
+494,Associate,2,Female,Yes
+495,Bachelor's,9,Male,Yes
+496,Bachelor's,5,Female,No
+497,Bachelor's,1,Male,Yes
+498,High School,3,Female,No
+499,PhD,6,Female,No
+500,PhD,5,Female,No
+501,Master's,5,Female,No
+502,Bachelor's,1,Male,Yes
+503,Bachelor's,17,Female,No
+504,Master's,19,Female,No
+505,Master's,14,Male,Yes
+506,Associate,12,Female,No
+507,PhD,10,Male,Yes
+508,Master's,18,Female,No
+509,PhD,11,Female,Yes
+510,Master's,2,Female,No
+511,Bachelor's,18,Male,Yes
+512,Bachelor's,7,Male,Yes
+513,PhD,15,Male,Yes
+514,Master's,11,Female,No
+515,High School,18,Male,Yes
+516,High School,12,Male,Yes
+517,Bachelor's,6,Female,No
+518,Master's,13,Male,Yes
+519,PhD,16,Female,No
+520,Associate,18,Female,No
+521,Bachelor's,10,Female,No
+522,Bachelor's,8,Male,Yes
+523,PhD,18,Male,Yes
+524,Master's,1,Male,Yes
+525,Master's,8,Male,Yes
+526,Bachelor's,6,Male,Yes
+527,Bachelor's,5,Male,Yes
+528,Bachelor's,15,Female,No
+529,High School,15,Female,No
+530,Master's,2,Male,Yes
+531,Master's,1,Female,No
+532,PhD,11,Female,No
+533,PhD,10,Female,No
+534,Bachelor's,18,Female,No
+535,Master's,18,Male,Yes
+536,PhD,17,Male,Yes
+537,Master's,8,Male,Yes
+538,Associate,15,Male,Yes
+539,Bachelor's,8,Female,No
+540,Associate,17,Female,No
+541,PhD,12,Male,Yes
+542,Bachelor's,8,Male,Yes
+543,Associate,14,Female,No
+544,Master's,4,Male,Yes
+545,Bachelor's,1,Male,Yes
+546,Bachelor's,1,Female,Yes
+547,Associate,19,Male,Yes
+548,Master's,16,Male,Yes
+549,Bachelor's,14,Male,Yes
+550,Master's,16,Female,No
+551,Bachelor's,5,Male,Yes
+552,Master's,9,Male,Yes
+553,Bachelor's,2,Male,Yes
+554,Bachelor's,18,Male,Yes
+555,Master's,6,Male,Yes
+556,Bachelor's,9,Female,No
+557,Associate,1,Male,Yes
+558,High School,9,Female,No
+559,Master's,16,Male,Yes
+560,Bachelor's,13,Male,Yes
+561,Master's,9,Male,Yes
+562,Associate,13,Male,Yes
+563,Associate,9,Male,Yes
+564,High School,11,Male,Yes
+565,Bachelor's,4,Male,Yes
+566,Bachelor's,2,Female,No
+567,Bachelor's,6,Male,Yes
+568,Bachelor's,14,Female,No
+569,PhD,4,Female,No
+570,Bachelor's,6,Male,Yes
+571,Bachelor's,19,Male,Yes
+572,Master's,6,Male,Yes
+573,Bachelor's,2,Male,Yes
+574,Bachelor's,18,Male,No
+575,Master's,13,Female,No
+576,PhD,9,Male,No
+577,Associate,19,Male,No
+578,PhD,13,Female,No
+579,Bachelor's,11,Male,Yes
+580,Bachelor's,1,Female,Yes
+581,Bachelor's,7,Male,Yes
+582,PhD,15,Male,Yes
+583,Bachelor's,1,Male,Yes
+584,Bachelor's,12,Male,Yes
+585,Bachelor's,7,Female,No
+586,Associate,15,Male,Yes
+587,High School,19,Female,No
+588,Associate,1,Male,Yes
+589,Associate,17,Male,Yes
+590,Associate,17,Male,Yes
+591,Associate,3,Male,Yes
+592,Bachelor's,12,Female,Yes
+593,Associate,6,Male,Yes
+594,Bachelor's,11,Male,No
+595,Master's,3,Male,Yes
+596,Bachelor's,8,Male,Yes
+597,Master's,14,Male,Yes
+598,Associate,14,Male,Yes
+599,Associate,10,Female,Yes
+600,High School,2,Male,No
+601,Associate,14,Male,Yes
+602,Bachelor's,9,Male,Yes
+603,Associate,3,Male,Yes
+604,High School,8,Female,Yes
+605,Associate,16,Male,Yes
+606,Bachelor's,2,Male,Yes
+607,Associate,6,Female,No
+608,Bachelor's,12,Male,Yes
+609,Bachelor's,5,Male,Yes
+610,Master's,2,Female,No
+611,High School,16,Female,No
+612,Master's,5,Female,No
+613,Bachelor's,15,Male,Yes
+614,High School,12,Male,Yes
+615,Master's,4,Male,Yes
+616,PhD,15,Male,Yes
+617,High School,11,Female,No
+618,Bachelor's,16,Male,Yes
+619,Master's,6,Female,No
+620,Master's,14,Female,No
+621,Associate,18,Male,No
+622,Associate,12,Male,Yes
+623,Bachelor's,11,Female,No
+624,Bachelor's,13,Male,Yes
+625,Bachelor's,11,Female,No
+626,Bachelor's,16,Male,Yes
+627,Bachelor's,15,Male,Yes
+628,Master's,15,Male,No
+629,High School,4,Female,No
+630,Bachelor's,11,Male,Yes
+631,Master's,19,Female,No
+632,Master's,15,Male,No
+633,Bachelor's,4,Female,Yes
+634,Bachelor's,13,Female,No
+635,Associate,19,Male,Yes
+636,Bachelor's,2,Male,Yes
+637,Bachelor's,14,Female,No
+638,Associate,4,Male,Yes
+639,Bachelor's,16,Female,Yes
+640,Bachelor's,14,Male,Yes
+641,High School,15,Female,No
+642,Bachelor's,3,Female,No
+643,Associate,8,Female,Yes
+644,Bachelor's,16,Male,Yes
+645,Associate,10,Male,Yes
+646,Master's,4,Male,Yes
+647,Bachelor's,18,Male,Yes
+648,Master's,2,Male,Yes
+649,Master's,17,Male,Yes
+650,Bachelor's,13,Female,No
+651,High School,4,Male,Yes
+652,Bachelor's,11,Male,No
+653,Bachelor's,7,Female,No
+654,Master's,12,Male,Yes
+655,Bachelor's,10,Male,Yes
+656,Associate,7,Female,No
+657,Bachelor's,13,Female,Yes
+658,Bachelor's,7,Male,Yes
+659,Bachelor's,17,Male,Yes
+660,Bachelor's,10,Female,No
+661,Bachelor's,10,Male,Yes
+662,PhD,4,Male,Yes
+663,Bachelor's,4,Male,Yes
+664,Associate,7,Male,No
+665,Associate,1,Male,Yes
+666,Associate,12,Male,Yes
+667,Associate,13,Female,No
+668,Associate,10,Female,No
+669,Associate,15,Male,Yes
+670,Bachelor's,13,Female,No
+671,Associate,9,Female,No
+672,Master's,9,Male,Yes
+673,High School,15,Male,Yes
+674,Bachelor's,10,Female,No
+675,Bachelor's,10,Male,Yes
+676,PhD,8,Female,No
+677,Associate,16,Male,Yes
+678,Bachelor's,17,Female,No
+679,PhD,5,Male,Yes
+680,Master's,4,Male,Yes
+681,Master's,18,Female,No
+682,Bachelor's,19,Male,Yes
+683,Associate,4,Male,Yes
+684,Master's,7,Male,Yes
+685,PhD,10,Male,Yes
+686,Bachelor's,18,Male,Yes
+687,Bachelor's,19,Female,No
+688,Bachelor's,4,Male,Yes
+689,Master's,10,Female,No
+690,Associate,1,Female,No
+691,Bachelor's,18,Female,No
+692,Bachelor's,5,Male,Yes
+693,Bachelor's,15,Female,Yes
+694,Associate,17,Male,Yes
+695,Associate,3,Female,Yes
+696,Bachelor's,12,Female,No
+697,Bachelor's,2,Female,Yes
+698,Bachelor's,1,Male,Yes
+699,Associate,17,Female,No
+700,Bachelor's,16,Male,No
+701,Bachelor's,5,Female,Yes
+702,High School,15,Female,Yes
+703,Bachelor's,3,Male,Yes
+704,Associate,7,Female,Yes
+705,High School,11,Male,Yes
+706,PhD,10,Male,Yes
+707,Bachelor's,9,Male,Yes
+708,Master's,14,Male,Yes
+709,Bachelor's,13,Female,No
+710,Master's,2,Male,Yes
+711,Master's,3,Male,Yes
+712,Bachelor's,7,Female,No
+713,Bachelor's,18,Female,No
+714,Bachelor's,3,Female,Yes
+715,Bachelor's,10,Female,No
+716,PhD,7,Female,No
+717,Master's,9,Male,Yes
+718,PhD,17,Male,No
+719,Associate,11,Female,No
+720,Master's,7,Male,Yes
+721,PhD,14,Female,No
+722,Associate,19,Male,Yes
+723,High School,4,Male,Yes
+724,Master's,6,Male,Yes
+725,Bachelor's,10,Female,No
+726,Master's,7,Male,Yes
+727,Associate,13,Female,No
+728,Master's,14,Male,Yes
+729,Associate,4,Male,Yes
+730,Associate,8,Female,Yes
+731,Associate,5,Female,No
+732,Master's,1,Male,Yes
+733,Master's,4,Female,No
+734,Bachelor's,3,Male,Yes
+735,Bachelor's,9,Male,Yes
+736,Master's,8,Male,Yes
+737,Bachelor's,1,Female,No
+738,Master's,6,Female,Yes
+739,Bachelor's,9,Male,Yes
+740,Bachelor's,7,Female,No
+741,Bachelor's,4,Male,No
+742,Bachelor's,13,Male,Yes
+743,Master's,17,Male,Yes
+744,Bachelor's,2,Male,Yes
+745,Associate,5,Male,Yes
+746,Master's,12,Male,Yes
+747,Bachelor's,8,Female,No
+748,Bachelor's,6,Male,No
+749,PhD,8,Male,Yes
+750,Bachelor's,18,Male,Yes
+751,Associate,3,Male,Yes
+752,PhD,12,Male,Yes
+753,Bachelor's,3,Female,No
+754,Bachelor's,6,Male,Yes
+755,Associate,2,Female,No
+756,Master's,12,Female,Yes
+757,Bachelor's,2,Male,Yes
+758,Bachelor's,6,Female,Yes
+759,Master's,17,Male,Yes
+760,Master's,3,Female,No
+761,Associate,2,Male,Yes
+762,Bachelor's,8,Male,No
+763,Associate,12,Male,Yes
+764,Master's,4,Male,Yes
+765,High School,5,Male,Yes
+766,Bachelor's,13,Male,Yes
+767,Master's,15,Male,Yes
+768,Master's,16,Female,No
+769,Bachelor's,10,Female,No
+770,Master's,16,Male,No
+771,Associate,12,Male,No
+772,Master's,17,Female,No
+773,Associate,16,Female,No
+774,Bachelor's,12,Female,Yes
+775,Master's,8,Male,Yes
+776,Associate,3,Male,Yes
+777,Associate,16,Male,Yes
+778,Master's,13,Male,Yes
+779,Master's,19,Female,No
+780,Bachelor's,8,Female,No
+781,Master's,5,Male,Yes
+782,Bachelor's,8,Female,No
+783,Bachelor's,12,Male,Yes
+784,Bachelor's,1,Male,Yes
+785,Associate,6,Male,Yes
+786,PhD,18,Female,No
+787,Bachelor's,8,Male,No
+788,Bachelor's,7,Female,No
+789,Bachelor's,1,Female,No
+790,PhD,16,Male,Yes
+791,Associate,12,Male,Yes
+792,Bachelor's,6,Female,No
+793,Bachelor's,2,Male,No
+794,Bachelor's,14,Female,Yes
+795,High School,4,Female,No
+796,Master's,1,Male,Yes
+797,PhD,18,Male,Yes
+798,Bachelor's,13,Female,No
+799,Master's,2,Female,No
+800,PhD,9,Male,Yes
+801,Master's,2,Male,Yes
+802,Associate,9,Male,Yes
+803,Bachelor's,1,Female,No
+804,Bachelor's,11,Female,No
+805,Bachelor's,3,Female,No
+806,Master's,4,Male,Yes
+807,PhD,18,Male,Yes
+808,PhD,6,Female,No
+809,Bachelor's,3,Male,Yes
+810,Associate,11,Male,No
+811,PhD,15,Male,No
+812,Master's,5,Female,No
+813,Associate,10,Female,No
+814,PhD,12,Male,Yes
+815,Master's,15,Male,Yes
+816,Bachelor's,17,Female,Yes
+817,Bachelor's,10,Female,No
+818,Bachelor's,6,Male,Yes
+819,High School,18,Male,Yes
+820,Bachelor's,13,Male,Yes
+821,Master's,3,Female,No
+822,High School,10,Male,Yes
+823,Bachelor's,14,Male,No
+824,Bachelor's,6,Female,No
+825,Bachelor's,3,Female,No
+826,PhD,16,Male,Yes
+827,Bachelor's,7,Female,No
+828,Bachelor's,14,Male,Yes
+829,Master's,9,Male,Yes
+830,Bachelor's,15,Male,Yes
+831,Associate,3,Female,No
+832,Bachelor's,2,Male,Yes
+833,Associate,2,Female,No
+834,Associate,3,Female,No
+835,Bachelor's,18,Female,Yes
+836,Bachelor's,14,Female,No
+837,PhD,18,Female,No
+838,Bachelor's,10,Male,Yes
+839,Bachelor's,2,Male,No
+840,Bachelor's,1,Female,No
+841,High School,4,Male,Yes
+842,Master's,14,Female,No
+843,Associate,1,Female,No
+844,PhD,14,Male,Yes
+845,Associate,16,Female,No
+846,Bachelor's,14,Male,Yes
+847,High School,3,Male,No
+848,PhD,3,Male,Yes
+849,Bachelor's,9,Male,No
+850,Bachelor's,6,Female,No
+851,High School,13,Female,No
+852,Master's,2,Female,Yes
+853,Associate,8,Male,Yes
+854,Master's,2,Male,Yes
+855,Associate,4,Female,No
+856,Associate,15,Male,Yes
+857,High School,4,Female,No
+858,Bachelor's,13,Female,No
+859,Bachelor's,12,Female,No
+860,High School,13,Female,No
+861,Master's,14,Male,Yes
+862,Bachelor's,18,Female,No
+863,Bachelor's,6,Male,Yes
+864,Bachelor's,11,Female,No
+865,Bachelor's,2,Male,Yes
+866,Bachelor's,19,Female,No
+867,Associate,19,Female,No
+868,Associate,5,Male,Yes
+869,Master's,19,Male,Yes
+870,PhD,2,Female,No
+871,Bachelor's,10,Male,Yes
+872,Bachelor's,2,Male,Yes
+873,Bachelor's,11,Male,Yes
+874,Bachelor's,18,Male,Yes
+875,High School,15,Female,Yes
+876,Associate,9,Male,Yes
+877,Master's,19,Male,Yes
+878,Master's,9,Male,Yes
+879,High School,3,Male,Yes
+880,Associate,9,Male,Yes
+881,Associate,14,Male,No
+882,Master's,19,Male,Yes
+883,High School,7,Male,Yes
+884,Associate,16,Female,No
+885,Master's,16,Male,Yes
+886,Associate,1,Female,No
+887,Master's,4,Male,Yes
+888,Associate,4,Male,Yes
+889,High School,7,Female,No
+890,Associate,8,Male,Yes
+891,Master's,17,Female,No
+892,Master's,5,Female,No
+893,Master's,7,Male,Yes
+894,Bachelor's,4,Female,No
+895,Master's,6,Female,No
+896,Associate,7,Male,No
+897,Bachelor's,18,Male,No
+898,Master's,5,Male,Yes
+899,High School,3,Female,Yes
+900,High School,7,Female,Yes
+901,Associate,14,Female,No
+902,High School,7,Female,No
+903,Associate,5,Male,Yes
+904,Bachelor's,5,Male,Yes
+905,Bachelor's,2,Female,No
+906,Master's,6,Male,No
+907,Master's,15,Female,Yes
+908,Bachelor's,10,Male,Yes
+909,Bachelor's,7,Male,Yes
+910,Bachelor's,5,Female,No
+911,Bachelor's,1,Female,No
+912,Bachelor's,13,Male,Yes
+913,Bachelor's,18,Female,Yes
+914,Bachelor's,13,Male,Yes
+915,Bachelor's,18,Female,Yes
+916,Bachelor's,5,Female,No
+917,Bachelor's,13,Female,No
+918,PhD,4,Female,No
+919,Master's,17,Male,Yes
+920,Associate,3,Male,Yes
+921,Master's,17,Female,No
+922,Bachelor's,11,Male,Yes
+923,Master's,4,Female,No
+924,Master's,2,Male,Yes
+925,Bachelor's,16,Female,No
+926,High School,18,Female,No
+927,Bachelor's,8,Female,Yes
+928,Bachelor's,3,Male,Yes
+929,Bachelor's,9,Female,No
+930,Bachelor's,6,Male,No
+931,Associate,10,Male,Yes
+932,Master's,10,Female,No
+933,PhD,13,Female,No
+934,Bachelor's,17,Female,Yes
+935,Associate,9,Male,Yes
+936,Bachelor's,17,Male,Yes
+937,High School,9,Male,Yes
+938,PhD,9,Male,No
+939,Associate,1,Male,Yes
+940,Bachelor's,2,Female,No
+941,Bachelor's,16,Male,Yes
+942,Bachelor's,1,Female,No
+943,Master's,10,Female,No
+944,Master's,18,Female,No
+945,Associate,8,Female,Yes
+946,High School,11,Female,No
+947,Associate,2,Male,Yes
+948,PhD,8,Male,Yes
+949,Master's,8,Male,Yes
+950,Bachelor's,17,Male,Yes
+951,Bachelor's,15,Female,No
+952,Master's,17,Male,Yes
+953,Associate,13,Female,No
+954,PhD,19,Female,No
+955,Bachelor's,5,Male,No
+956,Bachelor's,12,Female,Yes
+957,Bachelor's,1,Male,Yes
+958,High School,5,Male,Yes
+959,Associate,8,Female,Yes
+960,Master's,13,Male,Yes
+961,High School,8,Female,No
+962,Bachelor's,11,Male,Yes
+963,Associate,1,Male,Yes
+964,Bachelor's,13,Female,No
+965,Bachelor's,19,Male,Yes
+966,Bachelor's,3,Male,Yes
+967,Master's,17,Male,Yes
+968,Bachelor's,5,Female,No
+969,Bachelor's,8,Male,Yes
+970,Bachelor's,14,Male,Yes
+971,Master's,4,Male,Yes
+972,PhD,11,Male,Yes
+973,Master's,15,Female,No
+974,Associate,19,Female,No
+975,High School,7,Male,Yes
+976,Bachelor's,19,Female,No
+977,Bachelor's,19,Male,Yes
+978,High School,11,Female,Yes
+979,Bachelor's,5,Female,No
+980,Bachelor's,5,Male,Yes
+981,Bachelor's,8,Female,Yes
+982,Master's,10,Female,Yes
+983,Associate,6,Male,Yes
+984,High School,15,Male,Yes
+985,Master's,16,Male,Yes
+986,Bachelor's,17,Female,No
+987,Master's,8,Female,No
+988,Bachelor's,8,Female,Yes
+989,Associate,9,Female,No
+990,Master's,2,Female,No
+991,Master's,15,Female,No
+992,Master's,18,Female,Yes
+993,Bachelor's,3,Male,Yes
+994,Bachelor's,17,Male,Yes
+995,Bachelor's,4,Female,Yes
+996,High School,4,Male,Yes
+997,PhD,14,Female,No
+998,Associate,9,Male,Yes
+999,PhD,9,Male,Yes
+1000,Bachelor's,18,Female,No
