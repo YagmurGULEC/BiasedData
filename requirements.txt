@@ -1,6 +1,11 @@
-dash_bootstrap_components
+fastapi==0.95.2
+uvicorn==0.21.1
+aiofiles==23.1.0        # Optional for async file handling
+python-magic==0.4.27    # Optional for MIME type detection
+python-slugify
+python-multipart==0.0.5 # Optional for file uploads
+scikit-learn
 pandas
-fastapi
-uvicorn
-dash
-plotly
+python-magic
+pytest
+httpx
