@@ -4,7 +4,7 @@ SHELL=./make-venv
 
 PHONY: run install post-install create-data
 install:
-	python3.11 -m venv venv
+	python3 -m venv venv
 	pip install --upgrade pip
 
 
