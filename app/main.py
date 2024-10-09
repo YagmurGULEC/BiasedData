@@ -1,69 +1,90 @@
 import os 
-from fastapi import FastAPI,Request,File,UploadFile,HTTPException
+from fastapi import FastAPI,Request,File,UploadFile,HTTPException,Form,Depends
+from fastapi_csrf_protect import CsrfProtect
+from fastapi_csrf_protect.exceptions import CsrfProtectError
 import uvicorn
-from .utils import is_allowed_extension,sanitize_filename,validate_mime_type,get_total_file_size,generate_file_id
 import aiofiles
-from typing import Dict
-
+from typing import Dict,List
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+import aioredis
+import aioboto3
+import asyncio
+import uuid
+import io
+import pandas as pd
 
 app = FastAPI()
-file_upload_progress: Dict[str, int] = {}
+APP_DIR= os.path.dirname(__file__)
+STATIC_DIR = os.path.join(APP_DIR, "static/")
+TEMPLATES_DIR = os.path.join(APP_DIR, "templates/")
+templates = Jinja2Templates(directory=TEMPLATES_DIR)
+app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+# Use environment variables for Redis host and port
+redis_host = os.getenv("REDIS_HOST", "localhost")
+redis_port = int(os.getenv("REDIS_PORT", 6379))
+
+ENV=os.getenv("ENV","local")
+if ENV=="local":
+    UPLOAD_DIR = "uploaded_files"
+    os.makedirs(UPLOAD_DIR, exist_ok=True)
+else:
+    UPLOAD_DIR=None
+    s3_bucket_name=os.getenv("S3_BUCKET_NAME")
+    s3_region_name=os.getenv("S3_REGION_NAME")
+
 
 @app.get("/")
 async def read_root(request: Request):
-    return {"message": "Hello World"}
-
-@app.post("/sync-upload")
-async def sync_upload(file: UploadFile = File(...)):
-    UPLOAD_DIR = "uploaded_files_sync"
-    os.makedirs(UPLOAD_DIR, exist_ok=True)
-    if not is_allowed_extension(file.filename):
-        raise HTTPException(status_code=400, detail="Invalid file type")
-    file_content = file.file.read(1024) # Read the first 1KB to check MIME type
-    valid_mime_type, mime_type = validate_mime_type(file_content)
-    if not valid_mime_type:
-        raise HTTPException(status_code=400, detail=f"Invalid MIME type: {mime_type}")
-    
-    sanitized_filename = sanitize_filename(file.filename)
-    file_path = os.path.join(UPLOAD_DIR, sanitized_filename)
-    with open(file_path, "wb") as buffer:
-        buffer.write(file_content) #Write the first 1KB to the file
-        buffer.write(file.file.read()) # Write the rest of the file
-    return {"message": "File uploaded successfully", "filename": sanitized_filename}
+    return templates.TemplateResponse(
+        "index.html",{"request": request,'title': "File Upload"}
+    )
 
 @app.post("/async-upload")
-async def async_upload(file: UploadFile = File(...)):
-    UPLOAD_DIR = "uploaded_files_async"
-    os.makedirs(UPLOAD_DIR, exist_ok=True)
-    file_id = generate_file_id()
+async def async_upload(file: UploadFile = File(...),filename:str=Form(...),columns:List[str]=Form(...),size:int=Form(...)):
    
-    if not is_allowed_extension(file.filename):
-        raise HTTPException(status_code=400, detail="Invalid file type")
-    file_content = await file.read(1024)
     
-    total_file_size = get_total_file_size(file)
-  
-    uploaded_bytes =1024
-    valid_mime_type, mime_type = validate_mime_type(file_content)
-    if not valid_mime_type:
-        raise HTTPException(status_code=400, detail=f"Invalid MIME type: {mime_type}")
-    sanitized_filename = sanitize_filename(file.filename)
-    file_path = os.path.join(UPLOAD_DIR, sanitized_filename)
-    async with aiofiles.open(file_path, "wb") as buffer:
-        await buffer.write(file_content) # Write the first 1KB to the file
-        while file_content:= await file.read(1024):
-            uploaded_bytes += len(file_content)
-            file_upload_progress[file_id] = int((uploaded_bytes / total_file_size) * 100)
-            print(f"File ID: {file_id}, Progress: {min(file_upload_progress[file_id],100)}%")
-            await buffer.write(file_content)
-    return {"message": "File uploaded successfully", "filename": sanitized_filename}
+    try:
+        session = aioboto3.Session(
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_KEY"),
+        region_name=s3_region_name
+        
+        )
+        async with session.client("s3") as s3_client:
 
-@app.get("/upload-progress/{file_id}")
-async def upload_progress(file_id: str):
-    """
-    Endpoint to get the progress of a file upload
-    """
-    if file_id not in file_upload_progress:
-        raise HTTPException(status_code=404, detail="File ID not found")
-    current_progress = file_upload_progress[file_id]
-    return {"file_id": file_id, "progress": current_progress}
+            upload_id = str(uuid.uuid4())
+            key = f"{upload_id}/{filename}"
+            # Create a unique upload ID for progress tracking
+           
+            # Upload the file in chunks
+            content=await file.read()
+            # Upload the file in one part
+            await s3_client.put_object(
+                Bucket=s3_bucket_name,
+                Key=key,
+                Body=content
+            )
+        return {"message": "File uploaded successfully", "upload_id": upload_id, "filename": filename,"url":f"{key}", "columns": columns, "size": size}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error occurred during file upload: {e}")
+
+@app.post("/detect-bias")
+async def detect(file_key:str=Form(...),label_column:str=Form(...),sensitive_column:str=Form(...)):
+    try:
+        session = aioboto3.Session(
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_KEY"),region_name=s3_region_name)
+        async with session.client("s3") as s3_client:
+            response = await s3_client.get_object(Bucket=s3_bucket_name, Key=file_key)
+             # Read the file content asynchronously
+            content = await response['Body'].read()
+             # Load CSV data into a Pandas DataFrame
+            csv_buffer = io.StringIO(content.decode('utf-8'))
+            df = pd.read_csv(csv_buffer)
+            
+        return {"message": "Bias detected successfully", "label_column": label_column, "sensitive_column": sensitive_column}
+    except Exception as e:  
+        raise HTTPException(status_code=500, detail=f"Error occurred : {e}")
+    
+

@@ -7,4 +7,26 @@ services:
     volumes:
       - .:/app-docker
     command: "uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+    depends_on:
+      - redis
+    env_file:
+      - .env
+    networks:
+      - fastapi-network
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks: 
+      - fastapi-network
+networks:
+  fastapi-network:
+    driver: bridge
+
+volumes:
+  redis-data:
+    driver: local
+    
   
