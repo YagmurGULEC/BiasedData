@@ -1,32 +1,26 @@
 import pytest
-import httpx
 from app.main import app
+import os
 from httpx import AsyncClient
-import redis
+from app.main import app
+from httpx import ASGITransport
 
-# Set up the Redis client
-
+TEST_DIR= os.path.dirname(__file__)
 
 @pytest.mark.asyncio
-async def test_async_upload_file():
-    async with httpx.AsyncClient(transport=httpx.ASGITransport(app=app), base_url="http://test") as async_client:
-        # Step 1: Upload a file
-        response = await async_client.post("/async-upload", files={"file": ("test_data.csv", open("test_data.csv", "rb"))})
-        assert response.status_code == 200
-        file_id = response.json()["file_id"]
-        # Step 2: Check the upload progress
-        progress_response = await async_client.get(f"/upload-progress/{file_id}")
-        assert progress_response.status_code == 200
-        assert int(progress_response.json()["progress"]) <=100
-
-
-
-@pytest.fixture(scope="session")
-def setup_redis_container():
-    # Assuming Redis is running (e.g., via Docker), you could set this up manually or as part of CI
-    client = redis.Redis(host='localhost', port=6379, decode_responses=True,db=1)
-    yield client
-    client.flushdb()  # Clean up after tests
+async def test_upload_file():
+    async with AsyncClient(transport=ASGITransport(app), base_url="http://test") as async_client:
+        file_path = os.path.join(TEST_DIR, "../app/test_data.csv")
+        with open(file_path, "rb") as file:
+            response = await async_client.post("/async-upload", files={"file": ("test_data.csv", file)})
+        assert response.status_code==200
+        assert 'upload_id' in response.json()
+        assert 'key' in response.json()
+        key = response.json()['key']
+        sensitive_column='Gender'
+        label_column='Hired'
+        response = await async_client.post("/detect-bias",data={"file_key":key,"label_column":label_column,"sensitive_column":sensitive_column})
+        print (response.json())
 
    
 

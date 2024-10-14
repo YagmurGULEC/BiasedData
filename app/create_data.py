@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 import random
 from functools import lru_cache
-
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 education_levels = ['High School', 'Associate', 'Bachelor\'s', 'Master\'s', 'PhD']
 skills_pool = ['Python', 'SQL', 'Data Analysis', 'Machine Learning', 'AI']
@@ -15,7 +16,7 @@ def decide_hiring(row: pd.Series):
         return np.random.choice(['Yes', 'No'], p=[0.2, 0.8])
 
 
-def generate_imbalanced_data(num_samples:int =1000)->pd.DataFrame:
+def generate_imbalanced_data(num_samples:int =1000000)->pd.DataFrame:
     # Set random seed for reproducibility
     np.random.seed(42)
     print ("Generating data")
@@ -41,7 +42,6 @@ def generate_imbalanced_data(num_samples:int =1000)->pd.DataFrame:
 
 if __name__ == "__main__":
     df = generate_imbalanced_data()
-    print (df.head())
     df.to_csv("test_data.csv",index=False)
 
 

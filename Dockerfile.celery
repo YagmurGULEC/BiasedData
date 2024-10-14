@@ -1,0 +1,16 @@
+# Dockerfile.celery
+
+# Use the same base image as the FastAPI app
+FROM python:3.11-slim
+
+# Set the working directory
+WORKDIR /app-docker
+
+# Copy project files
+COPY . /app-docker
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Command to start the Celery worker
+CMD ["celery", "-A", "app.celery_app", "worker", "--loglevel=info"]
